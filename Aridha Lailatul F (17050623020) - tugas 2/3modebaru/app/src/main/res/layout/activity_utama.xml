@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UtamaActivity">
+
+    <Button
+        android:id="@+id/stand"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="30dp"
+        android:background="#E91E63"
+        android:text="STANDART"
+        android:onClick="STANDART"/>
+
+    <Button
+        android:id="@+id/scien"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="30dp"
+        android:background="#E91E63"
+        android:text="SCIENTIFIC"
+        android:onClick="SCIENTIFIC"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:text="Aridha Lailatul Faizah"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+
+</LinearLayout>
